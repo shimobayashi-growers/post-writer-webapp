@@ -22,3 +22,19 @@ npx create-next-app@latest
 ```
 npm run dev
 ```
+
+# shadcn/ui セットアップ
+
+https://ui.shadcn.com/docs/installation/next
+
+```
+npx shadcn@latest init
+```
+
+- style -> Default
+- base color -> Slate
+- CSS variables -> yes
+
+```
+npx shadcn@latest add button
+```
