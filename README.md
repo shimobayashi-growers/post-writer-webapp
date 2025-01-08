@@ -9,13 +9,13 @@ https://www.udemy.com/share/10b8lo3@kKnaV3O2OpuinrZw_lVz_MDzFgwxfAD_35yOMkAStpY2
 npx create-next-app@latest
 ```
 
-プロジェクトネームは好み
-Typescript - Yes
-ESLint - Yes
-Tailwind CSS - Yes
-src/ - No
-App Router - Yes
-import alias - Yesz
+- プロジェクトネームは好み
+- Typescript -> Yes
+- ESLint -> Yes
+- Tailwind CSS -> Yes
+- src/ -> No
+- App Router -> Yes
+- import alias -> Yes
 
 サーバ起動
 
