@@ -66,6 +66,26 @@ export default function IndexPage() {
               </div>
             </div>
           </div>
+          <div className="mx-auto md:max-w-[58rem] text-center">
+              <p className="text-muted-foreground sm:text-lg sm:leading-7">
+                このサービスはNext.js 14 App Routerで作られたサービスです。ユーザは自由に投稿をポストすることができます
+              </p>
+            </div>
+        </section>
+
+        <section id="contact" className="container py-8 md:py-12 lg:py-24">
+          <div className="max-w-[58rem] mx-auto text-center flex flex-col gap-4">
+            <h2 className="font-extrabold text-3xl md:text-6xl">Contact Me</h2>
+            <p className="text-muted-foreground sm:text-lg sm:leading-7">このサービスについてのご意見、ご要望、ご質問などがありましたらお気軽にご連絡ください。</p>
+            <Link
+              href={siteConfig.links.x}
+              className="underline underline-offset-4"
+              target="_blank"
+              rel="noreferrer"
+              >
+                お仕事はXまで
+            </Link>
+          </div>
         </section>
     </>
   );
